@@ -1,0 +1,44 @@
+# --- LaTeX temporals ---
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.xdv
+
+# --- PDF generats ---
+build/*.pdf
+
+# --- LyX temporals ---
+*.lyx~ 
+*.backup
+*.tmp
+*.lyx#*
+
+# --- MiKTeX temporals ---
+*.dvi
+*.ps
+*.gz
+*.zip
+*.rar
+
+# --- TeXstudio ---
+*.synctex(busy)
+*.synctex.gz(busy)
+
+# --- Carpetes de sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Carpetes de compilació ---
+/auto/
+/_*
